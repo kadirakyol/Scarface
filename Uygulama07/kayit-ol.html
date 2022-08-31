@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayit Ol</title>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurun</h1>
+    <hr />
+    <!--Hesap bilgileri bloğu-->
+    <h2>Hesap Bilgileriniz</h2>
+    <div id="hesapbilgileridiv">
+      <div id="kullaniciadialani">
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="username">Kullanıcı Adı:</label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <input
+                type="text"
+                id="username"
+                placeholder="Kullanıcı Adı Giriniz.."
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="epostaalani">
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="eposta">Eposta:</label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <input type="email" id="eposta" placeholder="Eposta Giriniz.." />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="parolaalani">
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="parola">Parola:</label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <input
+                type="password"
+                id="parola"
+                placeholder="Parola Giriniz.."
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--Kişisel bilgiler bloğu-->
+    <h2>Kişisel Bilgileriniz</h2>
+    <div id="kisiselbilgilerdiv">
+      <div id="adalani">
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="name">Adınız: </label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <input type="text" id="name" placeholder="Adınızı Giriniz.." />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="soyadalani">
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="surname">Soyadınız: </label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <input
+                type="text"
+                id="surname"
+                placeholder="Soyadınızı Giriniz.."
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="sehiralani">
+        <table>
+          <tr>
+            <td style="width: 120px">
+              <label for="city">Şehir: </label>
+            </td>
+            <td style="width: 50px"></td>
+            <td>
+              <select id="city">
+                <option>Kütahya</option>
+                <option>İstanbul</option>
+                <option>Ankara</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="cinsiyetalani">
+        <table>
+          <tr>
+            <td>
+              <label for="cinsiyet">Cinsiyet: </label>
+            </td>
+            <td>
+              <input type="radio" name="cinsiyetname" id="cinsiyet" />Erkek
+            </td>
+            <td>
+              <input type="radio" name="cinsiyetname" id="cinsiyet" />Kadın
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="hobiler">
+        <table>
+          <tr>
+            <td>
+              <label for="hobiler">Hobileriniz: </label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobilername" id="hobiler" /> Koşu
+              <input type="checkbox" name="hobilername" id="hobiler" /> Kitap
+              Okumak
+              <input type="checkbox" name="hobilername" id="hobiler" /> Sinema
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><br /><button type="submit">Kaydet</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
